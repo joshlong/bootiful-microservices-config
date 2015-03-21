@@ -1,6 +1,8 @@
 bookmark:
  mask: _L_ for user _U_.
 
+message : Hi world 
+
 spring:
  jpa:
   generate-ddl: true
