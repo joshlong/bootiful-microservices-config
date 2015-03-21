@@ -9,3 +9,11 @@ eureka:
   serviceUrl:
    defaultZone: ${vcap.services.eureka.credentials.uri:http://127.0.0.1:8888}/eureka/
 
+
+---
+spring:
+  profiles: cloud
+eureka:
+  instance:
+    hostname: ${APPLICATION_DOMAIN}
+    nonSecurePort: 80
