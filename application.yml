@@ -7,9 +7,5 @@ info:
 eureka:
  client:
   serviceUrl:
-   defaultZone: http://127.0.0.1:8761/eureka/
+   defaultZone: ${vcap.services.eureka.credentials.uri:http://127.0.0.1:8888}/eureka/
 
-spring:
- oauth2:
-  resource:
-   userInfoUri: http://localhost:9999/uaa/user
