@@ -1,6 +1,0 @@
-bookmark:
- mask: _L_ for user _U_.
-
-spring:
- jpa:
-  generate-ddl: true
