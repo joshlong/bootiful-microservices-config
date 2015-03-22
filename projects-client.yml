@@ -1,0 +1,4 @@
+configuration:
+  projectName: Spring Cloud
+server:
+  port: 0

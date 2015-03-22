@@ -1,0 +1,8 @@
+spring:
+ jpa:
+  generate-ddl: true
+
+message: Hello from Contact Service
+
+bookmark:
+  mask: _L_ for user _U_.
