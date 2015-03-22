@@ -1,14 +1,15 @@
 server:
- port: ${PORT:${SERVER_PORT:0}}
+  port: ${PORT:${SERVER_PORT:0}}
 
 info:
- id: ${spring.application.name}
+  id: ${spring.application.name}
+
+debug: true
 
 eureka:
- client:
-  serviceUrl:
-   defaultZone: ${vcap.services.eureka.credentials.uri:http://127.0.0.1:8888}/eureka/
-
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
 
 ---
 spring:
