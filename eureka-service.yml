@@ -1,4 +1,3 @@
-message: Hello Eureka
 eureka:
   client:
     registerWithEureka: false
