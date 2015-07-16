@@ -9,7 +9,7 @@ debug: true
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+      defaultZone: ${EUREKA_SERVER:${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}}/eureka/
 
 ---
 spring:
