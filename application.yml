@@ -9,9 +9,6 @@ debug: true
 
 
 
-server:
-  port: 0
-
 spring:
   sleuth:
     log:
