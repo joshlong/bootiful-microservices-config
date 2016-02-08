@@ -1,9 +1,0 @@
-message: Hello Eureka
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
-server:
-  port: 8761
